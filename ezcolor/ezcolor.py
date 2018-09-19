@@ -21,7 +21,7 @@ class Color:
         self._fg = 30
         self._bg = 40
                 
-        self.fmt = '\033[{style};{fg};{bg}m{msg}\033[m'
+        self.fmt = u'\033[{style};{fg};{bg}m{msg}\033[m'
     def __getattr__(self, attr):
         '''sample: bold_red_bg_blue'''
         style = self._style['default']
