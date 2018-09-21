@@ -11,7 +11,7 @@ supported stype:
 
 api:
 
-llegal format: 
+- llegal format: 
     - `color.[style]_[fg_color]_bg_[bg_color](msg)`
     - `color.[fg_color](msg)`
     - `color.bg_[bg_color](msg)`
