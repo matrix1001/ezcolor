@@ -1,7 +1,5 @@
 # ezcolor
 very simple color module with several lines.
-# install
-python setup.py install
 # usage
 supported color:
 `black` `red` `green` `yellow` `blue` `purple` `cyan` `white`
